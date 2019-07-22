@@ -1,1 +1,65 @@
-/*Need to add all CSS for project*/
+/*Below code is mobile-first layout*/
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+sup {
+    font-size: .7em;
+}
+
+body {
+    background-color: #4fb0ce77;
+}
+
+header {
+    text-align: center;
+    margin-top: 1em;
+    font-family: 'Raleway', Helvetica, sans-serif;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.925);
+    box-shadow: 3px 3px gray;
+    margin: 1.5em 3em;
+    padding: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(0, 0, 0, 0.829);
+}
+
+#description {
+    text-align: center;
+    padding-bottom: .6em;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1em auto;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+}
+
+label, legend {
+    margin-bottom: .6em;
+}
+
+#name,
+#email,
+#age,
+#dropdown1,
+#dropdown2 {
+    width: 80%;
+    padding: .4em;
+}
+
+/*Need to fix below style*/
+.radio-recommend fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+
+

@@ -34,7 +34,9 @@ form div {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 1em auto;
+    align-items: center;
+    margin: 1.5em .5em;
+    text-align: center;
 }
 
 fieldset {
@@ -55,11 +57,10 @@ label, legend {
     padding: .4em;
 }
 
-/*Need to fix below style*/
-.radio-recommend fieldset {
+.improve-options fieldset {
     display: flex;
-    flex-direction: column;
 }
 
-
-
+input[type="text"], [type="number"], [type="email"]::placeholder {
+    text-align: center;
+}
